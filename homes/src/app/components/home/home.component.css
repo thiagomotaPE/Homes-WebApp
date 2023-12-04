@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2{
+    margin-top: 30px;
+    color: rgb(59, 59, 211);
+}
+
+.searchArea{
+    width: 400px;
+}
+
+input[type="text"] {
+    border: solid 1px rgb(59, 59, 211);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 30px;
+    display: inline-block;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    border: solid 1px rgb(59, 59, 211);
+    background: rgb(59, 59, 211);
+    color: white;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    input[type="text"] {
+        width: 70%;
+    }   
+}
