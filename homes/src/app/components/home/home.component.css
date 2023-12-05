@@ -6,7 +6,7 @@ header {
 
 h2{
     margin-top: 30px;
-    color: rgb(59, 59, 211);
+    color: var(--primary-color);
 }
 
 .searchArea{
@@ -14,7 +14,7 @@ h2{
 }
 
 input[type="text"] {
-    border: solid 1px rgb(59, 59, 211);
+    border: solid 1px var(--primary-color);
     padding: 10px;
     border-radius: 8px;
     margin-top: 30px;
@@ -24,8 +24,8 @@ input[type="text"] {
 
 button {
     padding: 10px;
-    border: solid 1px rgb(59, 59, 211);
-    background: rgb(59, 59, 211);
+    border: solid 1pxvar(--primary-color);
+    background: var(--primary-color);
     color: white;
     border-radius: 8px;
     margin-left: 15px;
