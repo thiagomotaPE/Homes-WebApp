@@ -1,5 +1,12 @@
 <main>
   <app-home></app-home>
-  <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
+  <div class="container">
+    <div class="content">
+      <app-housing-location
+        *ngFor="let housingLocation of housingLocationList"
+        [housingLocation]="housingLocation">
+      </app-housing-location>
+    </div>
+  </div>
 </main>
 <router-outlet></router-outlet>
